@@ -1,21 +1,24 @@
 ## Actions
 ### Easy Actions
-* [ ] Create a new directory for the output files (currently .csv files) and move files there
-* [ ] Work on linking between survey pages
-* [ ] Redirect to 'Home' after completing form
-* [ ] Improve documentation
+* [ ] Create a new directory for the output files (currently .csv files) and move files there (*important*)
+* [ ] Work on linking between survey pages (*important*)
+* [ ] Redirect to 'Home' after completing form (*Very Important*)
+* [ ] Improve documentation (*Would be nice*)
+* [ ] Apply consistent naming across all the pages (*Very Important*)
 
 ### Medium Actions
-* [ ] Create new form for Net Promoter Score
-* [ ] Create new form for Customer Effort Score
-* [ ] Add a login page for the admin/dashboard area
-* [ ] Generally improve Dashboard page
-* [ ] Free form text questions are not generally captured as its hard to represent in the dashboard, this needs reviewed
+* [ ] Create new form for Net Promoter Score (*Very Important*)
+* [ ] Create new form for Customer Effort Score (*Very Important*)
+* [ ] Add a login page for the admin/dashboard area (*Very Important*)
+* [ ] Generally improve Dashboard page (*Important*)
+* [ ] Free form text questions are not generally captured as its hard to represent in the dashboard, this needs reviewed (*Nice to have*)
+* [ ] Change app.py outputs from .CSV to JSON (*Important*)
+* [ ] Restructure charts to read from JSON (*Important*)
 
 ### Hard Actions
-* [ ] Change app.py to output to JSON
-* [ ] Consider Database options 
-* [ ] Look at React for the forms
+* [ ] Consider Database options, documentation for this as a minimum (*Required*) - One for Vishnu 
+* [ ] Look at React for the forms, documentation for this as a minimum (*Required*) - Payel this is for you
+* [ ] Change app.py outputs from .CSV to .JSON (*Required*) - Chhavi, need your help with this
 
 ## How to Guides
 ### Test Code locally
