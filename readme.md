@@ -4,6 +4,8 @@
 * [ ] Work on linking between survey pages
 * [ ] Redirect to 'Home' after completing form
 * [ ] Improve documentation
+* [ ] Apply consistent naming across all the pages
+
 
 ### Medium Actions
 * [ ] Create new form for Net Promoter Score
