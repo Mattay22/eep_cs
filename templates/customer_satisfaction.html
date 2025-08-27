@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NewBank Onboarding Survey</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='survey.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>NewBank Onboarding Survey</h1>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/admin">Dashboards</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="userinfo">
+      <div class="guide-group">
+        <ul>
+          <br>
+          <li>This survey is for users who have recently onboarded to Kratix</li>
+        </ul>
+      </div>
+    </section>    
+
+  </section id="questiion">
+  <form method="post">
+    <h2>Personal Details</h2>
+    Name: <input type="text" name="name"><br><br>
+    How satisfied are you with our product?:
+    <select name="how_satisifed">
+      <option>Not at all</option>
+      <option>Some what</option>
+      <option>Mostly</option>
+      <option>Completely</option>
+    </select><br><br>
+    Would you recommend our product/service to others?:
+    <select name="would_recommend">
+        <option>Yes</option>
+        <option>No</option>
+    </select><br><br>
+    What do you like most about our Product/Service?<br>
+    <textarea name="like_most" rows="4" cols="40"></textarea><br><br>
+    </select><br><br>
+    What we can improve?:<br>
+    <textarea name="improve" rows="4" cols="40"></textarea><br><br>
+    <input type="submit" value="Submit">
+    </select><br><br>
+</form>
+
+  <footer>
+    <p>&copy; 2025 EPP</p>
+  </footer>
+</body>
+</html>

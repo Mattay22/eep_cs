@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LocEast Onboarding Surveys</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='survey.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>LocEast Onboarding Survey</h1>
+    <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/admin">Dashboards</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="userinfo">
+      <div class="guide-group">
+        <ul>
+          <br>
+          <li>This survey is for users who have recently onboarded to Kratix</li>
+        </ul>
+      </div>
+    </section>    
+
+    <section id="homepage">
+      <h2>{{ title1 }}</h2>
+      <img src="data:image/png;base64,{{ chart1 }}" alt="Chart 1">
+      <hr>
+    
+      <h2>{{ title2 }}</h2>
+      <img src="data:image/png;base64,{{ chart2 }}" alt="Chart 2">
+      <hr>
+    
+      <h2>{{ title3 }}</h2>
+      <img src="data:image/png;base64,{{ chart3 }}" alt="Chart 3">
+      <hr>
+    </section>
+    
+
+  <footer>
+    <p>&copy; 2025 EPP</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NewBank Onboarding Survey</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='survey.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>NewBank Onboarding Survey</h1>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/admin">Dashboards</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="userinfo">
+      <div class="guide-group">
+        <ul>
+          <br>
+          <li>This survey is for users who have recently onboarded to Kratix</li>
+        </ul>
+      </div>
+    </section>    
+
+  </section id="questiion">
+  <form method="post">
+    <h2>Personal Details</h2>
+    Name: <input type="text" name="name"><br><br>
+    <h2>Behavrioral Questions</h2>
+    How often do you use our product/service?:
+    <select name="often_use">
+        <option>Daily</option>
+        <option>Weekly</option>
+        <option>Monthly</option>
+        <option>Rarely</option>
+        <option>Never</option>
+    </select><br><br>
+    Have you attended any of our webinars or training sessions?:
+    <select name="webinar">
+        <option>Yes</option>
+        <option>No</option>
+    </select><br><br>
+    <h2>Satisfaction Questions</h2>
+    How satisfied are you with our product/service:
+    <select name="satisfied">
+        <option>Not at all</option>
+        <option>Some what</option>
+        <option>Moderately</option>
+        <option>Confident</option>
+    </select><br><br>
+    How likely are you to recommend it to others?:
+    <select name="recommend">
+        <option>very likely</option>
+        <option>likely</option>
+        <option>neutral</option>
+        <option>unlikely</option>
+        <option>very unlikely</option>
+    </select><br><br>
+    How engaged do you feel to our product/service?:
+    <select name="engaged">
+        <option>Extremely</option>
+        <option>very</option>
+        <option>neutral</option>
+        <option>not very</option>
+        <option>not at all</option>
+    </select><br><br>
+    How useful were the webinars or training sessions?:
+    <select name="webinars2">
+        <option>Extremely</option>
+        <option>very</option>
+        <option>neutral</option>
+        <option>not very</option>
+        <option>not at all</option>
+    </select><br><br>
+    <h2>Communication Preferences</h2>
+  How do you prefer to recieve updates about our service?:
+    <select name="updates">
+        <option>Email</option>
+        <option>Notifications and Banners</option>
+        <option>Social Media</option>
+        <option>Other</option>
+    </select><br><br>
+    Feedback:<br>
+    <textarea name="feedback" rows="4" cols="40"></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+  <footer>
+    <p>&copy; 2025 EPP</p>
+  </footer>
+</body>
+</html>

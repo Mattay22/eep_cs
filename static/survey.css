@@ -1,0 +1,54 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e4e8; /* deep navy blue */
+    color: #040404; /* soft light text */
+  }
+  
+/* Header */
+header {
+background-color: #310542; /* slightly lighter blue */
+color: #ffffff;
+padding: 1rem;
+text-align: center;
+box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+h2 {
+color: #310542;
+border-bottom: 2px solid #1f3f6e;
+padding-bottom: 0.3rem;
+}
+/* Navigation */
+nav a {
+    margin: 0 1rem;
+    color: #ebcff8;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+.tile-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    background-color: #ebcff8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .tile:hover {
+    transform: translateY(-5px);
+    background-color: #e2eaf1;
+  }
+
+  

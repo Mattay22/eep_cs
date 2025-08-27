@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LocEast Onboarding Survey</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='survey.css') }}">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>LocEast Dashboards</h1>
+    </div>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/admin">Dashboards</a>
+    </nav>
+  </header>
+  
+
+  <main>
+    <section id="userinfo">
+      <div class="guide-group">
+        <ul>
+          <br>
+          <li>This survey is for users who have recently onboarded to Kratix</li>
+        </ul>
+      </div>
+    </section>    
+
+    <section id="hompage">
+        <h2>Explore Customer Success Forms</h2>
+        <div class="tile-container">
+          <a href="/onboard-survey" class="tile-link">
+            <div class="tile">
+              <h3>Onboard Completetion Rate</h3>
+              <p>Answer questions on Onboarding Process</p>
+            </div>
+          </a>
+
+          <a href="/customer-engagement" class="tile-link">
+            <div class="tile">
+              <h3>Customer Engagement</h3>
+              <p>Answer questions on Customer Engagement</p>
+            </div>
+          </a>
+
+          <a href="/customer-satisfaction" class="tile-link">
+            <div class="tile">
+              <h3>Customer Satisfaction</h3>
+              <p>Answer questions on Customer Satisfaction</p>
+            </div>
+          </a>
+
+          <a href="/net-promoter-score" class="tile-link">
+            <div class="tile">
+              <h3>Net Promoter Score</h3>
+              <p>Answer questions on Net Promoter Score</p>
+            </div>
+          </a>
+
+          <a href="/customer-effort-score" class="tile-link">
+            <div class="tile">
+              <h3>Customer Effort Score</h3>
+              <p>Answer questions on Customer Score</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </section>
+
+  <footer>
+    <p>&copy; 2025 EPP</p>
+  </footer>
+</body>
+</html>
