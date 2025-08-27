@@ -27,4 +27,5 @@ class Chart:
         fig.savefig(buf, format="png")
         buf.seek(0)
         img_base64 = base64.b64encode(buf.read()).decode("utf-8")
+        
         return img_base64
